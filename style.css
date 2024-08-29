@@ -1,0 +1,51 @@
+body {
+    font-family: 'Press Start 2P', cursive; /* Uma fonte estilo retrô de jogos */
+    background-color: #222; /* Cor de fundo escura para um efeito mais imersivo */
+    color: #f5f5f5; /* Cor do texto clara para contraste */
+    margin: 0;
+    padding: 0;
+}
+
+.caixa-principal {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.tela-inicial p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.iniciar-btn, .novamente-btn {
+    background-color: #ffcc00; /* Cor vibrante para botões */
+    border: none;
+    color: #222;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.iniciar-btn:hover, .novamente-btn:hover {
+    background-color: #ffaa00; /* Efeito de hover para interatividade */
+}
+
+.caixa-perguntas, .caixa-alternativas, .caixa-resultado {
+    margin-top: 20px;
+}
+
+.texto-resultado {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
